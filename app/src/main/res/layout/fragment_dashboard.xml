@@ -12,10 +12,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="76dp"
-            android:background="#1B4D45"
+            android:background="#003399"
             android:gravity="center"
             android:text="Add Student"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFCC99"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:hint="Enter student's name"
+            android:hint="Enter Student's Name"
             android:inputType="text" />
 
         <EditText
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:maxLength="2"
-            android:hint="Enter student's age"
+            android:hint="Enter Student's Age"
             android:inputType="number" />
 
         <EditText
@@ -41,14 +41,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:hint="Enter student's address"
+            android:hint="Enter Student's Address"
             android:inputType="text" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="Select Gender"
+            android:text="Select Your Gender"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -62,19 +62,22 @@
                 android:id="@+id/rbMale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Male" />
+                android:text="Male"
+                android:textColor="#0000FF"/>
 
             <RadioButton
                 android:id="@+id/rbFemale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Female" />
+                android:text="Female"
+                android:textColor="#FF66FF"/>
 
             <RadioButton
                 android:id="@+id/rbOthers"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Others" />
+                android:text="Others"
+                android:textColor="#00CC00"/>
 
         </RadioGroup>
 
@@ -84,7 +87,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:text="Save" />
+            android:text="Save"
+            android:textColor="#FFCC99"
+            android:background="#003399"/>
 
     </LinearLayout>
 </ScrollView>

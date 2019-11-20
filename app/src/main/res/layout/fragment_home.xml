@@ -9,10 +9,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="76dp"
-        android:background="#1B4D45"
+        android:background="#003399"
         android:gravity="center"
         android:text="Student Details"
-        android:textColor="#FFFFFF"
+        android:textColor="#FFCC99"
         android:textSize="30dp"
         android:textStyle="bold" />
 
@@ -21,6 +21,7 @@
         android:id="@+id/recyclerViewHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:background="#FFFFCC"/>
 
 </LinearLayout>
